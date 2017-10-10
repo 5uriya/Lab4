@@ -378,21 +378,3 @@ linreg <-setRefClass( Class = "linreg",
                           
                           
                         }))
-
-
-
-linreg_mod <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length,data=iris)
-
-
-
-linreg_mod$print()
-
-linreg_mod$pred()
-
-linreg_mod$resid()
-
-linreg_mod$coef()
-
-linreg_mod$summary()
-
-linreg_mod$plot()

@@ -6,4 +6,6 @@ Date: 2017-10-10
 Author: Amish Satish and Balaji Ramkummar
 Maintainer: <Amish.Satish93@gmail.com>
 Description: It  performs linear regression on a given set of data and plots it.
-License:GPL-2
+License: GPL-2
+Suggests: testthat
+RoxygenNote: 6.0.1.9000
