@@ -369,7 +369,7 @@ linreg <-setRefClass( Class = "linreg",
                           
                           for(i in 1:nrow(output)){
                             
-                            cat(paste(as.character(output[i, ]),collapse = " "),"\n")
+                            cat (paste(as.character(output[i, ]),collapse = " "),"\n")
                             
                           }
                           
