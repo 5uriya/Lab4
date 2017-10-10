@@ -259,7 +259,7 @@ linreg <-setRefClass( Class = "linreg",
                         
                         pred =function(){
                           
-                          cat("Predicted values or fitted values:","\n")
+                          cat ("Predicted values or fitted values:","\n")
                           
                           return(as.vector(round(ybar, 2)))
                           
