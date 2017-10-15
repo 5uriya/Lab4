@@ -295,7 +295,7 @@ linreg <-setRefClass( Class = "linreg",
                         
                         
                         
-                        #Summary method 
+                      
                         
                         summary = function() {
                           
